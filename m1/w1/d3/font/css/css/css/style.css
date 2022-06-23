@@ -1,0 +1,33 @@
+/*tipografia*/
+html{
+    font-size: 20px;
+}
+h1{
+    font-size: 1rem;
+}
+h2{
+    font-size: 2rem;
+}
+h2 span{
+    font-size: ;
+}
+@font-face {
+    font-family: ;
+    src: url("../webfont/ufonts.com_tw-cen-mt\ \(1\).ttf") format("truetype");
+}
+h3{
+    font-family: miofont;
+
+}
+h4{
+    text-transform: uppercase ;
+    text-align: center;
+}
+p{
+    line-height: 2rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 0px 1px #000;
+}
+h5{
+    text-indent: 30px;
+}

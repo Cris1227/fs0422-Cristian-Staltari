@@ -1,0 +1,16 @@
+div{
+    
+    ;}
+    #div-blue{
+        color: blue;
+    }
+
+    .testo-verde{
+        color:green
+    }
+    span{
+        font-style: italic;
+    }
+    #area-grassetto span{
+        font-weight: bold;
+    }

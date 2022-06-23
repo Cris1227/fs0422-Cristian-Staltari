@@ -1,0 +1,14 @@
+.colonna{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+        display: inline-block;
+        margin-left:-3 ;
+}
+.colonna:nth-last-of-type(
+    disp
+
+)
+.target{
+    
+}

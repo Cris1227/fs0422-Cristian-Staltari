@@ -1,0 +1,79 @@
+body{
+    background-image: url('../img/sfondo.png');
+}
+header{
+    background-color: rgb(28, 28, 145);
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+header div img{
+    background-image: url('../img/logo.svg');
+    margin-right: auto;
+    
+
+}
+
+main{
+    background-color: aliceblue;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    
+}
+footer{
+    background-color: rgb(106, 47, 161);
+    height: 150px;
+    width: 90%;
+    margin: auto;
+    
+}
+main{
+    text-align: center;
+}
+table{
+    margin: auto;
+
+}
+thead{
+    background-color: blue;
+    height: 30px;
+}
+tbody{
+    background-color: azure;
+}
+iframe{
+    border-radius: 5px;
+}
+aside div{
+    box-sizing: content-box;
+    
+}
+ul{
+    background-color: aquamarine;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+
+ 
+    
+
+section{
+        background-color: aquamarine;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+aside{
+    background-color: aquamarine;
+    margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+    
+
+    
