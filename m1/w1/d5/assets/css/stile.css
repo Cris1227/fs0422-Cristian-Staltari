@@ -11,12 +11,17 @@ header{
 }
 
 
-article code div{
+ code div {
     background-image: url('../images/banner.jpg');
     height: 300px;
     text-align: center;
     background-position: center;
+    font-size: 2rem;
 
+
+}
+ code h1{
+    font-size: 3rem;
 
 }
 ul{
@@ -33,10 +38,13 @@ footer{
     background-color: #25a2c3;
     color: #c8e7f0;
     text-align: center;
+    height: 150px;
+    font-size: 1rem;
 
 }
 footer h1{
     color: #c8e7f0;
+    font-size: 2rem;
     
 
 }
