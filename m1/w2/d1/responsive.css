@@ -1,0 +1,39 @@
+.col{
+    background-color: red;
+    height: 300px;
+    margin-bottom: 15px;
+    display: inline-block;
+    solo-de{
+
+    }
+}
+@media screen and  (min-width:480px) {
+    .col{
+        background-color: yellow;
+        width: calc(100% / 2 - 8px);
+        margin-bottom: 10px;
+        display: inline-block;
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .col{
+        background-color:green ;
+        width: calc(100% / 3 - 8px );
+    }
+
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .col{
+        background-color: blue;
+        width: calc(100% / 4 - 8px);
+    }
+    
+}
+@media print{
+    .test{
+        display: none;
+    }
+}
