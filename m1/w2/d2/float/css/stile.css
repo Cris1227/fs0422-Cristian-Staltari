@@ -1,0 +1,9 @@
+img{
+    float: left;
+}
+.blog article{
+    width: 30&;
+    height: 300px;
+    float: left;
+    background-color: red
+}
