@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+}
+.blocco{
+
+}
+#n1.blocco{
+
+
+}
+
+#n1 .blocco:nth-child(1){
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+}
+#n2{
+    height: 50vh;
+}
+
+#n2 .blocco:nth-child(1){
+
+}
+
+#n2 .blocco:nth-child(2){
+
+}
+
+#n2 .blocco:nth-child(3){
+
+}
+#n3{
+    grid-template-areas: 
+    "header"
+    
+    
+    
+    ;
+
+}

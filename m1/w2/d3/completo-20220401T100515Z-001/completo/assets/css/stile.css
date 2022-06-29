@@ -11,6 +11,31 @@ body {
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
+/* BUTTON FIXED */
+.toTop {
+    position: fixed;
+    bottom: 10px;
+    right: -7px;
+}
+.social {
+    position: fixed;
+    bottom: 20vh;
+    right: -7px;
+}
+.toTop a, .social a {
+    color: #c77ea2;
+    font-size: 4rem;
+    display: block;
+}
+    .social a {
+        color: rgb(45, 101, 185);
+    }
+.toTop .far, .social .far {
+    background: white;
+}
+
+
+    
 /* HEADER */
 header {
     background: rgb(0,160,198);
@@ -22,6 +47,9 @@ header {
     box-shadow: 0 3px 3px #444;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 header div img {
     margin-bottom: 20px;
@@ -31,7 +59,12 @@ header nav ul {
 }
 header nav li {
     list-style: none;
+    display: inline-block;
+    margin-right: 10px;
 }
+    header nav li:last-child {
+        margin-right: 0;
+    }
 header nav li a {
     color: white;
     text-decoration: none;
@@ -52,8 +85,9 @@ main {
 }
 section { 
     background-color: #e3e3e3;
-    padding: 1em;
+    padding: 2.5em 1em 1em;
     margin-bottom: 2em;
+    position: relative;
 }
 section h2 {
     text-align: center;
@@ -62,6 +96,13 @@ section h2 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1em;
+    background-color: #a3a3a3;
+    position: absolute;
+    top: -0.5em;
+    left: 5%;
+    padding: 0 1em;
+    box-shadow: 1px 1px 2px #333;
+
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -77,6 +118,18 @@ p, address, ul, ol, dl, blockquote {
 h1 + p {
     color: #a0a0a0;
 }
+.imgLeft {
+    float: left;
+    margin-right: 20px;
+    border: 4px solid #00A0C6;
+    outline: 4px solid #a02571;
+    padding: 3px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 ul, ol {
     margin-left: 2em;
 }
@@ -178,73 +231,3 @@ footer {
 footer a {
     color: fuchsia;
 }
-
-/*posizionamento*/
-#menu > li{
-    display: inline-block;
-    
-}
-
-#n01{
-    font-size: 2rem;
-    background-color: rgb(190, 186, 186);
-    position: relative;
-    width: 5%;
-    top: -25px;
-    left: 45px;
-    font: bold;
-    border: #333;
-
-}
-#torna-sopra{
-    position: fixed;
-    height: 70px;
-    width: 100%;
-}
-#main-header{
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-#btt{
-    background-color:white;
-    color: rgb(162, 39, 123);
-    border-color: #a02571;
-    border: 1px;
-    width: 70px;
-    height: 60px;
-    top: 250px;
-    right: 10px;
-    position: fixed;
-    text-align: center;
-    line-height:50px
-}
-.social{
-    
-    position: fixed;
-    bottom: 20vh;
-    right: -7px;
-    font-size: 4rem;
-    display: block;
-    color: rgb(45, 101, 185);
-    background: white;
-}
-
-
-
-.imgb{
-    float: left;
-    margin-right: 20px;
-    border: 4px solid #00A0C6;
-    outline: 4px solid #a02571;
-    padding: 3px;
-}
-
-    
-
-
-    
-
-
-    
-
