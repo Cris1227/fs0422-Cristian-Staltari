@@ -1,0 +1,100 @@
+.c1 {
+
+
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+
+
+}
+
+.c1:hover {
+    animation-name: an;
+
+
+
+}
+
+section {
+    overflow: hidden;
+    height: 500px;
+    width: auto;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    will-change: transform;
+
+
+
+}
+
+#n1 {
+    background-color: blue;
+    transform: rotate(5deg);
+    animation-duration: 1s;
+}
+
+#n2 {
+    background-color: yellow;
+    transform: rotate(10deg);
+    animation-duration: 1s;
+}
+
+#n3 {
+    background-color: blueviolet;
+    transform: rotate(15deg);
+    animation-duration: 1s;
+}
+
+#n4 {
+    background-color: red;
+    transform: rotate(-5deg);
+    animation-duration: 1s;
+}
+
+#n5 {
+    background-color: black;
+    transform: rotate(11deg);
+    animation-duration: 1s;
+}
+
+#n6 {
+    background-color: green;
+    transform: rotate(-7deg);
+    animation-duration: 1s;
+}
+
+#n7 {
+    background-color: chocolate;
+    transform: rotate(15deg);
+    animation-duration: 1s;
+
+}
+
+#n8 {
+    background-color: crimson;
+    transform: rotate(-5deg);
+
+    animation-duration: 1s;
+
+}
+
+@keyframes an {
+    0% {
+        transform: translateZ(0px);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: translateZ(0px);
+    }
+
+
+
+}

@@ -1,0 +1,37 @@
+.quadrato{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+#n1{
+    transform: rotate(45deg);
+}
+#n2{
+    transform: rotatey(45deg);
+}
+#n3{
+    transform: rotatex(45deg);
+}
+#n4{
+    transform: scale(2);rotate: 50deg;
+}
+#n5{
+    transform: skew();
+}
+#n6{
+    transition : transform 0.5 s , bac;
+    transition-delay : 1s;
+}
+
+#n6:hover{
+    transform: skew();
+    background-color: blue;
+}
+
+
+#tranform-area{
+    perspective: 400px;
+    background-color: darkred;
+    height: ;
+
+}
