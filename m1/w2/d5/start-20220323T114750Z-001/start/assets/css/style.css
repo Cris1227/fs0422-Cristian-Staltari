@@ -1,9 +1,61 @@
 /* IMPOSTAZIONI GENERALI */
+body{
+    color: #000;
+    font: size 1.5rem;
+    font-family: "Fira Sans";
+    line-height: 1.8;
+    text-align: center;
+    margin: 0 auto;
+
+}
 
 /* HEADER */
+header{
+    box-shadow: #d3d3d3;
+    background-color: white;
+}
+#main-header{
+    height: auto;
+    width: auto;
+}
 
 /* MAIN */
+#epico{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+	background-position: auto;
+	
+
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+#oggi{
+    background-color: #0c0633;
+    color: white;
+}
+.bottone{
+    background-color: #392f7a;
+    color: white;
+    font-size: 1.9rem;
+    padding:  10px 10px 10px ;
+    
+}
+#bottone-sfumato{
+
+}
+table{
+    width: auto;
+}
+
+
 
 /* FOOTER */
+footer{
+    background-color: rgb(238, 238, 238);
+}
 
 /* RESPONSIVE */
